@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/yossikovan1999/Intelligence-Reports-Manager#readme",
   "dependencies": {
-    "nanoid": "^5.1.6"
+    "nanoid": "^5.1.6",
+    "readline-sync": "^1.4.10"
   }
 }

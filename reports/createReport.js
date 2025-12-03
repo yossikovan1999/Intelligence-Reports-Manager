@@ -1,5 +1,15 @@
 import { nanoid } from 'nanoid'
 
+//==========================================
+//             validate Input
+//==========================================
+function validateInput(name){
+   
+    if (typeof name !== 'string'){
+        throw new Error("Type of name must be string!!!")
+    }
+
+}
 
 //==========================================
 //               generate Id

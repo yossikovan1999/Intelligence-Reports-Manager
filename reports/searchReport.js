@@ -9,7 +9,6 @@ function searchDb(id) {
     const result = database.find((report) => report.id === id);
     
     
-
     if (result === undefined) {
         throw new Error("The id was not found in the database!")
     }

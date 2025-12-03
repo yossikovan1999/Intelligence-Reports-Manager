@@ -11,14 +11,14 @@ function deleteReport(id){
     if(index === -1){
         throw new Error("The report id was not found in the database!");
     }
+    
+    console.log("database before", database);
 
     const deleted = database.splice(index, 1);
-    
+
     if (deleted.length === 0){
         throw new Error("Could not delete the report from the database!");
     }
-
-    console.log("success delete", deleted);
 }
 
 

@@ -14,12 +14,11 @@ function main() {
 
         let report2 = createReport();
         saveReport(report2);
+        console.log(database);
 
         deleteReport(report2.id);
        
-        
 
-       
         console.log(database);
 
         const arr = [];
