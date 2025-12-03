@@ -44,7 +44,7 @@ function handleUserInput(input){
 //====================================
 //
 //====================================
-function run(){
+export default function run(){
     
     let loop = true
 
@@ -59,4 +59,3 @@ function run(){
     }    
 }
 
-run();
